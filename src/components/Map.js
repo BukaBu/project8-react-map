@@ -91,7 +91,7 @@ class Map extends React.Component {
       .then(response => response.json())
       .then(data => {
         const location_data = data.response.venues[0];
-        const name = `<span class="infoName"><a href="https://foursquare.com/v/${
+        const name = `<span class="info-name"><a href="https://foursquare.com/v/${
           location_data.id
         }" target="_blank"> ${location_data.name}</a></span><br>`;
         const address = `<div class="address">Address:
