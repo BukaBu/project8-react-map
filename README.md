@@ -14,6 +14,7 @@ The app allows users to display popular locations of Vegan Restaurants in Cracow
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 - React - bootstrapped with Create React App
+- React - [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/using-with/react)
 
 ## Service worker
 
