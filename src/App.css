@@ -1,0 +1,112 @@
+.App {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#map {
+  width: 90%;
+  height: 80vh;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: #275261;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-title {
+  font-size: 2em;
+}
+
+.infoName {
+  font-size: 1.5em;
+  color: #ffffff;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.search-button {
+  display: flex;
+}
+
+.list {
+  position: fixed;
+  z-index: 1;
+  top: 120px;
+  left: 30px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.footer {
+  width: 90%;
+  text-align: right;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  padding: 15px;
+}
+
+a:hover {
+  color: #275261;
+}
+
+.address {
+  font-size: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .list {
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    font-size: 0.8em;
+  }
+
+  .header-title {
+    font-size: 1.2em;
+  }
+
+  .infoName {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .header-title {
+    font-size: 1em;
+  }
+
+  li {
+    font-size: 0.8em;
+  }
+}
