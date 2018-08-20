@@ -6,7 +6,7 @@ The app allows users to display popular locations of Vegan Restaurants in Cracow
 
 - Download or clone this repository
 - Install all project dependencies with `npm install`
-- Start the development server with `npm start
+- Start the development server with `npm start`
 
 ## 3rd party API & Dependencies
 
@@ -17,4 +17,4 @@ The app allows users to display popular locations of Vegan Restaurants in Cracow
 
 ## Service worker
 
-'create-react-app' comes with a built-in service worker,but it is only available in production mode. To check it in production mode run `npm run build`
+'create-react-app' comes with a built-in service worker, but it is only available in production mode. To check it in production mode run `npm run build`
